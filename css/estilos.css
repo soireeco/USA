@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EFEFEF;
+    color: #363639;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+
+
+
+/* ? ----- PORTADA ----- */
+.portada {
+    width: 100%;
+    background: #EFEFEF;
+
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: .5s ease-out all;
+}
+
+.portada.oculta {
+    transform: translateY(100%);
+}
+
+.portada .header {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.portada .header .logotipo {
+    font-size: 30px;
+    font-size: 900;
+    margin-bottom: 20px;
+}
+
+.portada .header .mensaje {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.simply-section {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C19635;
+   
+}
+
+.simply-amount {
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    margin: auto;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.simply-word {
+    font-weight: 300;
+    font-size: 25px;
+    color: black;
+    line-height: 40px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nombre {
+}
+.coctel {
+    padding-top: 20px;
+    width: 523px;
+}
+.text5 {
+    font-size: 24px;
+    color: #6B4D23;
+    margin-top: 78px;
+}
+.confirmar {
+    margin-top: 32px;
+}
+.cuenta {
+    color: #E17072;
+    margin-top: 51px;
+    padding-bottom: 60px;
+}
+.nombres {
+    height: 203px;
+}
+
+.save {
+    width: 100%;
+}
+.form {
+    color: #000000;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    text-align: left;
+}
+.name {
+    width: 200px;
+    border-radius: 1px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    border-color: #E9E9E9;
+}
+.formulario {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: #EDEDED;
+}
+.btn-enviar {
+    padding-right: 14px;
+    padding-bottom: 17px;
+    padding-left: 8px;
+    margin-top: 3px;
+    padding-top: 10px;
+    color: #F9F9F9;
+    border-radius: 29px;
+    width: 99px;
+    height: 36px;
+    text-shadow: 0px 0px;
+    background-color: #1A1A1A;
+    margin-bottom: 7px;
+    margin-right: -87px;
+}
+.galeria {
+    margin-top: 45px;
+}
+.coc {
+}
+.campo {
+    width: 178px;
+}
+.etiquetas {
+    text-align: left;
+}.audio {
+    padding-bottom: 12px;
+    padding-top: 46px;
+}
